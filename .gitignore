@@ -1,0 +1,29 @@
+# Dependencies
+node_modules/
+dist/
+
+# Environment
+.env
+!.env.example
+
+# Logs
+*.log
+logs/
+
+# Backups
+backups/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Coverage
+coverage/
+
+# TypeORM migrations generated
+src/migrations/
